@@ -491,7 +491,6 @@ export default class App extends Component {
                     tree,
                     position,
                     highlights,
-                    busy: Object.keys(peers).length === 0,
 
                     onVertexClick: this.handleVertexClick.bind(this),
                     onWheel: this.handleWheel.bind(this)

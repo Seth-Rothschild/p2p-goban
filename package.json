@@ -8,6 +8,7 @@
     "url": "git+https://github.com/yishn/p2p-goban.git"
   },
   "scripts": {
+    "start": "node server.js",
     "build": "webpack --progress --mode production",
     "watch": "webpack --progress --mode development --watch"
   },
@@ -32,6 +33,7 @@
     "@sabaki/shudan": "^1.4.0",
     "classnames": "^2.2.6",
     "copy-text-to-clipboard": "^2.1.0",
+    "express": "^4.17.1",
     "preact": "^8.5.1",
     "signalhub": "^4.9.0",
     "uuid": "^3.3.2",
@@ -40,5 +42,5 @@
   "devDependencies": {
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
-  }
+    }
 }

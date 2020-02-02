@@ -1,0 +1,6 @@
+---
+applications:
+- name: p2p-goban
+  memory: 50M
+  command: npm start
+  instances: 1
